@@ -42,7 +42,7 @@
 .slick-next:focus
 {
     color: #2460bdc4;
-    outline: none;
+    /* outline: none; */
     background: #0a0a09a1;
 }
 .slick-prev:hover:before,
@@ -75,8 +75,8 @@
 .slick-prev
 {
     left: 0px;
-    top: 167px;
-    position: relative;
+    top: 149px;
+    /* position: relative; */
     z-index: 1;
 }
 [dir='rtl'] .slick-prev
@@ -98,8 +98,8 @@
     /* right: -25px; */
     left: 972px;
     /* top: 167px; */
-    bottom: 153px;
-    position: relative;
+    bottom: 152px;
+    /* position: relative; */
     z-index: 1;
 }
 [dir='rtl'] .slick-next
