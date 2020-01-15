@@ -896,12 +896,12 @@ ul.serv-list li {
 }
 .nbs-flexisel-nav-left {
   left: -50px;
-  background: url(../img/right.png) no-repeat 14px 12px #026fbf
+  background: url(img/right.png) no-repeat 14px 12px #026fbf
 }
 
 .nbs-flexisel-nav-right {
   right: -50px;
-  background: url(../img/left.png) no-repeat 14px 12px #026fbf
+  background: url(img/left.png) no-repeat 14px 12px #026fbf
 }
 .wthree_testimonials_grid_pos img {
   border-radius: 50%
