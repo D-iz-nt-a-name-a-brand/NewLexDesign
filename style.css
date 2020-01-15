@@ -159,7 +159,8 @@ article {
 }
 #services {
   background: #fff;
-  padding: 155px 0;
+  padding: 4em 0;
+  /* margin-top: 1em; */
 }
 services h5.text-center {
   font-size: 18px;
@@ -264,7 +265,7 @@ ul.serv-list li {
   z-index: 1
 }
 #portfolio{
-  margin-top: 9.5em;
+  margin-top: 4em;
 }
 .priceing-table-main {
   width: 50%;
@@ -410,7 +411,7 @@ ul.serv-list li {
   margin-top: 2.5em;
 }
 .section {
-  padding: 6em 0;
+  padding: 4em 0;
 }
 .banner-text {
    margin: 9.5em auto 0;
@@ -836,4 +837,13 @@ ul.serv-list li {
 	.carousel-inner .active.left { left: -25%; }
 	.carousel-inner .next        { left:  25%; }
 	.carousel-inner .prev		 { left: -25%; }	
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+  margin-top: 2em;
 }

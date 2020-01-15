@@ -34,16 +34,16 @@
     color: #842684;
     border: none;
     outline: none;
-    background: black;
+    background: #2460bd;
 }
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
 .slick-next:focus
 {
-    color: transparent;
+    color: #2460bdc4;
     outline: none;
-    background: transparent;
+    background: #0a0a09a1;
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
@@ -74,9 +74,10 @@
 
 .slick-prev
 {
-    left: -21px;
-    /* top: 20; */
-    /* position: relative; */
+    left: 0px;
+    top: 167px;
+    position: relative;
+    z-index: 1;
 }
 [dir='rtl'] .slick-prev
 {
@@ -94,7 +95,12 @@
 
 .slick-next
 {
-    right: 0;
+    /* right: -25px; */
+    left: 972px;
+    /* top: 167px; */
+    bottom: 153px;
+    position: relative;
+    z-index: 1;
 }
 [dir='rtl'] .slick-next
 {
