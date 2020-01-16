@@ -1013,7 +1013,7 @@ ul.serv-list li {
 .slick-initialized:hover .slick-prev,.slick-initialized:hover .slick-next{
   display: block !important;
 }
-/* .map {
+ .map {
   margin: 4em auto;
 }
 #help .contact-g1 {
@@ -1068,4 +1068,4 @@ a.abtlink {
   letter-spacing: .5px;
   background: linear-gradient(to bottom, #f2c11e 0%, #fbc503 100%);
   transform: scale(1);
-} */
+} 
