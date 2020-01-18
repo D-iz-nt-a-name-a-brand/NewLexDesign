@@ -231,13 +231,12 @@ iframe {
 }
 
 .login100-form-title {
-  font-family: corbert;
+  /* font-family: corbert; */
   font-size: 30px;
   color: #fff;
   line-height: 1.2;
   text-align: center;
   /* text-transform: uppercase; */
-
   display: block;
 }
 
