@@ -108,7 +108,7 @@ https://flickity.metafizzy.co
 }
 
 /* ---- page dots ---- */
-
+/* 
 .flickity-page-dots {
   position: absolute;
   width: 100%;
@@ -135,7 +135,7 @@ https://flickity.metafizzy.co
 
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
-}
+} */
 .carousel {
   /* background: #EEE; */
 }
