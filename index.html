@@ -21,7 +21,7 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
 <!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css"> <div id="headerContent"></div>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
 <!--===============================================================================================-->
@@ -35,8 +35,9 @@
 <script src="js/flickity.pkgd.js"></script>
 </head>
 <body class="DMCA">
+    <div id="headerContent"></div>
 <article>
-    <div class="container-fluid" >
+    <div class="container-fluid" style="background-color: white;" >
         <div class="row fix-header">
             <div class="col">
                 <div class="title-section">
@@ -45,11 +46,11 @@
             </div>
         </div>
         <div class="row">
-           <div class="col-4">
+           <div class="col-4"> <div id="headerContent"></div>
 
               <div class="sidebar-item">
                 <div class="make-me-sticky">
-                <div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+                <div class="container-login100" > 
                     <div class="wrap-login100">
                         <form class="login100-form validate-form">
                             <!-- <span class="login100-form-logo">
@@ -176,29 +177,29 @@
         <span>P</span>ortfolio</h3>
   <div class="abt-container portfolio-carousel">
     <div class="item active">
-      <div><img src="http://placehold.it/500/e499e4/fff&amp;text=1" class="img-responsive"></a></div>
+      <div><img src="img/portfolio1.png" class="img-responsive"></a></div>
     </div>
     <div class="item">
-      <div><img src="http://placehold.it/500/e477e4/fff&amp;text=2" class="img-responsive"></a></div>
+      <div><img src="img/portfolio2.png" class="img-responsive"></a></div>
     </div>
     <div class="item">
-      <div><img src="http://placehold.it/500/eeeeee&amp;text=3" class="img-responsive"></a></div>
+      <div><img src="img/portfolio3.png" class="img-responsive"></a></div>
     </div>
     <div class="item">
-      <div><img src="http://placehold.it/500/f4f4f4&amp;text=4" class="img-responsive"></a></div>
+      <div><img src="img/portfolio4.png" class="img-responsive"></a></div>
     </div>
     <div class="item">
-      <div><img src="http://placehold.it/500/f566f5/333&amp;text=5" class="img-responsive"></a></div>
+      <div><img src="img/portfolio5.png" class="img-responsive"></a></div>
     </div>
     <div class="item">
-      <div><img src="http://placehold.it/500/f477f4/fff&amp;text=6" class="img-responsive"></a></div>
+      <div><img src="img/portfolio6.png" class="img-responsive"></a></div>
     </div>
-    <div class="item">
+    <!-- <div class="item">
       <div><img src="http://placehold.it/500/eeeeee&amp;text=7" class="img-responsive"></a></div>
     </div>
     <div class="item">
       <div><img src="http://placehold.it/500/fcfcfc/333&amp;text=8" class="img-responsive"></a></div>
-    </div>
+    </div> -->
   </div>
  
 
@@ -338,14 +339,16 @@
 </article>
 
 <!-- pricing-table -->
-<div id="packages" class="section get-starteddesktop">
+<div id="packages" class="section get-starteddesktop" style="
+background: #d2e8f7;
+">
     <div class="container">
         <h3 class="title-txt">
             <span>D</span>MCA Take Down Service Packages</h3>
         <h5 class="text-center">Select your packages and start taking down</h5>
         <div class="row price-grid-wrapper clearfix">
             <div class="col-md-4">
-                <div class="price-block agile">
+                <div class="price-block agile" style="background: white;">
                     <div class="price-gd-top pric-clr1">
                         <h4>Basic</h4>
                         <h3>
@@ -376,7 +379,7 @@
                 </div>
             </div>
             <div class="col-md-4 scaled-table">
-                <div class="price-block agile">
+                <div class="price-block agile" style="background: white;">
                     <div class="price-gd-top pric-clr2">
                         <h4>Standard</h4>
                         <h3>
@@ -410,7 +413,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="price-block agile">
+                <div class="price-block agile" style="background: white;">
                     <div class="price-gd-top pric-clr3">
                         <h4>Premium</h4>
                         <h3>
@@ -530,7 +533,7 @@
 </div>
 
 
-<div class="section manager" id="faq">
+<div class="section manager" id="faq" style="background: #d2e8f7;">
     <div class="container">
         <h3 class="title-txt">
             <span>F</span>requently Asked Questions</h3>
@@ -873,9 +876,10 @@
     <script>
         $(document).ready(function(){
             $('.portfolio-carousel').slick({
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
             autoplay: false,
+            // variableWidth:true,
             autoplaySpeed: 2000,
         });
 
@@ -931,6 +935,16 @@
 
 
         });
+
+        $(function () {
+
+$("#headerContent").load("/header.html");
+
+$("#footer").load("/footer.html");
+
+$("#mobileMenu").load("/mobile-menu.html");
+
+});
     </script>
     <script src="js/numscroller-1.0.js"></script>
 <!--===============================================================================================-->
