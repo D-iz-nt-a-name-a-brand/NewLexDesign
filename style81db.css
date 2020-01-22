@@ -1,0 +1,284 @@
+#wppb_register_pre_form_message {
+    display: none
+}
+
+.alignnone {
+    margin: 5px 20px 20px 0
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto
+}
+
+.text-left {
+    text-align: left!important
+}
+
+.text-center {
+    text-align: center!important
+}
+
+.text-right {
+    text-align: right!important
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px
+}
+
+a img.alignleft,
+a img.alignnone {
+    margin: 5px 20px 20px 0
+}
+
+a img.alignleft {
+    float: left
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%;
+    padding: 5px 3px 10px;
+    text-align: center
+}
+
+.wp-caption.alignleft,
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px
+}
+
+.wp-caption img {
+    border: 0;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px
+}
+
+#item-desc h1,
+#item-desc p {
+    font-size: 14px
+}
+
+.sticky {
+    border: 1px solid #EEE;
+    background: #F8F8F8;
+    padding: 10px 25px 20px
+}
+
+.sticky hr {
+    display: none
+}
+
+cite,
+q {
+    font-style: italic
+}
+
+.shop-template {
+    float: right
+}
+
+.images.gallery {
+    margin-left: -35%
+}
+
+.summary.entry-summary {
+    position: relative
+}
+
+.buttons_added {
+    display: none!important
+}
+
+.related.products {
+    margin-left: -389px;
+    margin-right: 424px
+}
+
+input#gform_next_button_8_1 {
+    color: #fbb02c
+}
+
+input#gform_next_button_8_1:hover,
+input#gform_next_button_8_2:hover,
+input#gform_previous_button_8_2:hover {
+    color: #4886ea;
+    border: 2px solid #4886ea!important
+}
+
+input#gform_next_button_8_2,
+input#gform_previous_button_8_2 {
+    color: #fbb02c;
+    border: 2px solid #fbb02c!important
+}
+
+button.single_add_to_cart_button {
+    color: #fbb02c!important
+}
+
+button.single_add_to_cart_button:hover {
+    color: #4886ea!important;
+    border: 2px solid #4886ea!important
+}
+
+.quantity .minus,
+.quantity .plus {
+    border: none!important;
+    padding: 0!important;
+    color: #fbb02c!important
+}
+
+.quantity .minus {
+    margin: 0 2px 10px 0!important
+}
+
+.quantity .plus {
+    margin: 10px 2px 0 0!important
+}
+
+.quantity input {
+    color: #fbb02c!important
+}
+
+.susy-product-details {
+    color: #2a6496
+}
+
+.woocommerce ul.products li.product h3,
+.woocommerce-page ul.products li.product h3 {
+    color: #fbb02c
+}
+.other{
+	display:none;
+}
+.india{
+	display:none;
+}
+.aus{
+	display:none;
+}
+#item-desc,
+#item-desc h1,
+#item-desc p {
+    font-weight: 600;
+    color: #777
+}
+
+.quantity {
+    border: 2px solid #fbb02c!important;
+    width: 52px!important;
+    height: 50px!important
+}
+
+.quantity .qty {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    width: 16px;
+    text-align: center;
+    min-width: 30px
+}
+
+.gf_progressbar,
+.gf_progressbar_percentage,
+.gform_wrapper .gf_progressbar:after {
+    border-radius: 0!important
+}
+
+#item-desc br {
+    display: none
+}
+
+#item-desc p {
+    display: inline
+}
+
+h1.product_title.entry-title {
+    font-size: 24px!important;
+    color: #444
+}
+
+h3.gform_title {
+    color: #fbb02c
+}
+
+.page-id-3695 input.button {
+    color: #fbb02c!important
+}
+
+.page-id-3695 input.button:hover {
+    color: #4886ea!important;
+    border: 2px solid #4886ea!important
+}
+
+.gform_wrapper .gform_page_footer .button.gform_button,
+.gform_wrapper .gform_page_footer .button.gform_next_button,
+.gform_wrapper .gform_page_footer .button.gform_previous_button,
+.woocommerce #content div.product form.cart .button,
+.woocommerce div.product form.cart .button,
+.woocommerce-page #content div.product form.cart .button,
+.woocommerce-page div.product form.cart .button {
+    color: #4886ea
+}
+
+.page-id-2344 .full_width .container,
+.page-id-2685 .full_width .container,
+.page-id-2698 .full_width .container,
+.page-id-2702 .full_width .container,
+.page-id-2707 .full_width .container {
+    width: auto
+}
+
+.full_width {
+    padding: 0 15px
+}
+
+.pagelink p {
+    padding: 10px 15px;
+    border: 1px solid #EEE;
+    margin: 25px 0
+}
+
+.gform_wrapper .gform_page_footer .button.gform_next_button {
+    border: 1px solid #4886ea!important
+}

@@ -26,7 +26,7 @@
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div id="main-nav" class="collapse navbar-collapse">
+            <div id="main-nav" class="navbar-collapse">
                 <ul id="menu-main-menu" class="nav navbar-nav navbar-right">
                     <li id="menu-item-1810"
                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-34 current_page_item menu-item-1810 active">
@@ -539,44 +539,44 @@
     })(window, document, 'https://cdn.bitrix24.com/b3999627/crm/site_button/loader_6_aqbhx6.js');
 </script>
 <script>
-    jQuery("document").ready(function () {
+    $("document").ready(function () {
         var requestUrl = "https://ipapi.co/json/";
         //=============TRACE USER IP STARTS=========================
-        jQuery.ajax({
+        $.ajax({
             url: requestUrl,
             type: 'GET',
             success: function (json) {
                 if (json.continent_code == 'EU') {
                     //display EU flag/number
-                    jQuery('.eu').css('display', 'block');
-                    jQuery('.other').hide();
-                    jQuery('.india').hide();
-                    jQuery('.aus').hide();
+                    $('.eu').css('display', 'block');
+                    $('.other').hide();
+                    $('.india').hide();
+                    $('.aus').hide();
                 }
 
                 else {
                     if (json.country == 'IN') {
                         //display IN flag/number
-                        jQuery('.india').css('display', 'block');
-                        jQuery('.other').hide();
-                        jQuery('.eu').hide();
-                        jQuery('.aus').hide();
+                        $('.india').css('display', 'block');
+                        $('.other').hide();
+                        $('.eu').hide();
+                        $('.aus').hide();
                     }
 
                     else if (json.country == 'AU') {
                         //display AUS flag/number
-                        jQuery('.aus').css('display', 'block');
-                        jQuery('.other').hide();
-                        jQuery('.eu').hide();
-                        jQuery('.india').hide();
+                        $('.aus').css('display', 'block');
+                        $('.other').hide();
+                        $('.eu').hide();
+                        $('.india').hide();
                     }
 
                     else {
                         //display US flag/number
-                        jQuery('.other').css('display', 'block');
-                        jQuery('.india').hide();
-                        jQuery('.eu').hide();
-                        jQuery('.aus').hide();
+                        $('.other').css('display', 'block');
+                        $('.india').hide();
+                        $('.eu').hide();
+                        $('.aus').hide();
                     }
                 }
             },
@@ -586,9 +586,9 @@
         });
         //=============TRACE USER IP ENDS=========================
 
-        var submitIcon = jQuery('.searchbox-icon');
-        var inputBox = jQuery('#header-search input.s');
-        var searchBox = jQuery('.searchform');
+        var submitIcon = $('.searchbox-icon');
+        var inputBox = $('#header-search input.s');
+        var searchBox = $('.searchform');
         var isOpen = false;
         submitIcon.click(function () {
             if (isOpen == false) {
@@ -607,28 +607,28 @@
         searchBox.mouseup(function () {
             return false;
         });
-        jQuery(document).mouseup(function () {
+        $(document).mouseup(function () {
             if (isOpen == true) {
-                jQuery('.searchform-icon').css('display', 'block');
+                $('.searchform-icon').css('display', 'block');
                 submitIcon.click();
             }
         });
 
-        //   jQuery('ul.nav li.menu-item-has-children').hover(function () {
-        //      jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+        //   $('ul.nav li.menu-item-has-children').hover(function () {
+        //      $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
         //  }, function () {
-        //     jQuery(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+        //     $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
         //  });
 
 
     });       
 </script>
-<script type='text/javascript' src='/js/bootstrap-dropdownhover.js'></script>
-<script>jQuery(document).ready(function ($) { $(".sticky-nav").sticky({ topSpacing: 0 }); });</script>
-<script type='text/javascript' src='/js/jquery-slide-menu.js'></script>
+<script type='text/javascript' src='js/bootstrap-dropdownhover.js'></script>
+<script>$(document).ready(function ($) { $(".sticky-nav").sticky({ topSpacing: 0 }); });</script>
+<script type='text/javascript' src='js/jquery-slide-menu.js'></script>
 <script type="text/javascript">
-    jQuery(document).ready(function (e) {
-        jQuery('#extruderRight').SlideMenu({
+    $(document).ready(function (e) {
+        $('#extruderRight').SlideMenu({
             speedLR: 1000,
             speedUD: 500,
             expand: true,
