@@ -411,7 +411,7 @@ ul.serv-list li {
   margin-top: 2.5em;
 }
 .section {
-  padding: 4em 0;
+  padding: 2em 0;
 }
 .banner-text {
    margin: 9.5em auto 0;
@@ -1163,11 +1163,11 @@ body{background-color:#eee;}
 }
 
 #generic_price_table .generic_content .generic_head_price {
-	margin: 0 0 20px 0;
+	margin: 0px 0 20px 0;
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_head_content{
-	margin: 0 0 50px 0;
+	margin: 0 0 35px 0;
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_head_content .head_bg{
@@ -1177,7 +1177,7 @@ body{background-color:#eee;}
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_head_content .head{
-	padding-top: 40px;
+	padding-top: 35px;
 	position: relative;
 	z-index: 1;
 }
@@ -1193,29 +1193,29 @@ body{background-color:#eee;}
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_price_tag{
-	padding: 0 0 20px;
+	padding: 0px 0 15px;
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_price_tag .price{
-	display: block;
+	/* display: block; */
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_price_tag .price .sign{
     display: inline-block;
     font-family: "Lato",sans-serif;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 400;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_price_tag .price .currency{
     font-family: "Lato",sans-serif;
-    font-size: 60px;
+    font-size: 45px;
     font-weight: 300;
     letter-spacing: -2px;
     line-height: 60px;
     padding: 0;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
 #generic_price_table .generic_content .generic_head_price .generic_price_tag .price .cent{
@@ -1480,4 +1480,20 @@ body{background-color:#eee;}
 	background-color: #666;
 	color: #FFF;
 	text-decoration:none;
+}
+.container_pricecard{
+  background:white;
+}
+.generic_content clearfix{
+  height:100px;
+}
+.generic_feature_list p{
+  /* text-align: justify; */
+  /* text-align: center; */
+  /* word-wrap: break-word; */
+  font-size: 12px;
+  line-height: 1.7;
+  margin-bottom: 5px;
+  font-weight: 400;
+  display: block;
 }
