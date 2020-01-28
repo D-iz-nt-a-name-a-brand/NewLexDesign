@@ -104,7 +104,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    background-color: #fff
+    background-color: #f8f8f8;
 }
 
 [tabindex="-1"]:focus {
@@ -5269,7 +5269,8 @@ button.close {
 }
 
 .carousel {
-    position: relative
+    position: relative;
+    background: #f8f8f8e0;
 }
 
 .carousel-inner {
